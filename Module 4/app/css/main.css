@@ -1,0 +1,104 @@
+*{padding: 0;
+ margin: 0;
+ box-sizing: border-box;}
+html,body,main{
+    height: 100%;
+    font-family: 'Special Elite', cursive;
+}
+.First-container{
+    box-shadow: 0 0 20px 3px rgba(100, 100, 100, 0.5);
+    height: 100%;
+    background-image: url(../img/img1.jpg);
+    background-size: cover;
+    background-position:center;
+}
+.First-p{
+    width: 100%;
+    text-align: center;
+    padding-top: 80px;
+    font-size: 40px;
+    color: #ff6666;
+}
+.Text-container{
+    width: 40%;
+    margin-left: 19.5%;
+    margin-top: 15%;
+}
+.First-Line{
+    font-size: 70px;
+    opacity: 60%;
+    line-height: 1;
+    letter-spacing: 2px;
+}
+.Second-Line{
+    font-size: 87px;
+    color: orangered;
+    opacity: 90%;
+    line-height: 1.07;
+    letter-spacing: 5px;
+}
+.Third-Line{
+    font-family: 'Architects Daughter', cursive;
+    font-size: 17px;
+}
+.Second-container{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.Gallery-container{
+    width: 70%;
+    max-width: 1000px;
+    
+
+}
+.img-container{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+
+}
+img{
+    box-shadow: 0 0 20px 1px rgba(255, 0, 0, 0.4);
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 20px;
+}
+.Wrapper1{
+    margin-right: 20px;
+}
+.Gallery-text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+.Gallery-head{
+    font-size: 40px;
+    
+    line-height: 1;
+
+}
+.Gallery-feet{
+    font-size: 17px;
+  font-family: 'Architects Daughter', cursive;
+}
+.Third-container{
+    box-shadow: 0 0 20px 3px rgba(255, 0, 0, 0.5);
+    background-image: url(../img/img3.jpg);
+    background-size: cover;
+    background-position:center;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.Button{
+    font-size: 30px;
+    margin-bottom: 6px;
+}
